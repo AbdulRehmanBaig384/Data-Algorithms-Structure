@@ -1,10 +1,4 @@
 # 📌 Data Structures and Algorithms in C++
-
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/dsa-cpp)
-![GitHub contributors](https://img.shields.io/github/contributors/your-username/dsa-cpp)
-![GitHub stars](https://img.shields.io/github/stars/your-username/dsa-cpp?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/dsa-cpp?style=social)
-
 ## 🚀 Introduction
 Welcome to the **Data Structures and Algorithms in C++** repository! This project is designed to help programmers and students understand the implementation of various data structures and algorithms in C++ with optimized solutions and explanations.
 
@@ -14,7 +8,6 @@ Welcome to the **Data Structures and Algorithms in C++** repository! This projec
 - [Data Structures](#-data-structures)
 - [Algorithms](#-algorithms)
 - [How to Contribute](#-how-to-contribute)
-- [License](#-license)
 
 ## 🏁 Getting Started
 Clone this repository using the following command:
