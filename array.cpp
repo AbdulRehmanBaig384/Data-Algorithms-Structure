@@ -30,10 +30,12 @@
     }
      cout<<"smallest number is "<<smallest<<endl;
      cout<<"Largest number is "<<largest<<endl;
+}
 
-// }
-//pass by reference
-
+/pass by reference
+ Two of the common ones are Passing by Value and Passing by Reference. Passing by reference allows a function to modify a variable without creating a copy. We have to declare reference variables.
+  The memory location of the passed variable and parameter is the same. Therefore, any change to the parameter also reflects in the variable inside its parent function.
+  This article focuses on discussing how to pass variables by reference in C++.
 // Reverse of an Array
 // #include<iostream>
 // using namespace std;
