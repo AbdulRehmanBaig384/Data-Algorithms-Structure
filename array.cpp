@@ -1,36 +1,35 @@
 // here we discussion the important data structure that is ARRAY
-// #include<iostream>
-// using namespace std;
-// int main(){
-// int marks[5]={100,2,322,212,121};
-// cout<<marks[0]<<endl;
-// cout<<marks[1]<<endl;
-// cout<<marks[2]<<endl;
-// cout<<marks[3]<<endl;
-// marks[4]=99;
-// cout<<marks[4]<<endl;
-// cout<<marks[5]<<endl;
+ #include<iostream>
+ using namespace std;
+ int main(){
+ int marks[5]={100,2,322,212,121};
+ cout<<marks[0]<<endl;
+ cout<<marks[1]<<endl;
+ cout<<marks[2]<<endl;
+ cout<<marks[3]<<endl;
+ marks[4]=99;
+ cout<<marks[4]<<endl;
+ cout<<marks[5]<<endl;
 
-// }
+ }
 // smallest number in the array
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int array[5]={4,5,2,1,8};
-//     int size=5;
-//     int smallest=INT8_MAX;
-//     int largest=INT8_MIN;
-//     for(int i=0;i<=size;i++){
-//         if(array[i]>largest){
-//             largest=array[i];
-//         }
-//          else if(array[i]<smallest){
-//             smallest=array[i];
-          
-//          }
-//     }
-//     cout<<"smallest number is "<<smallest<<endl;
-//     cout<<"Largest number is "<<largest<<endl;
+ #include<iostream>
+ using namespace std;
+ int main(){
+     int array[5]={4,5,2,1,8};
+     int size=5;
+     int smallest=INT8_MAX;
+     int largest=INT8_MIN;
+     for(int i=0;i<=size;i++){
+         if(array[i]>largest){
+             largest=array[i];
+         }
+         else if(array[i]<smallest){
+             smallest=array[i];        
+          }
+    }
+     cout<<"smallest number is "<<smallest<<endl;
+     cout<<"Largest number is "<<largest<<endl;
 
 // }
 //pass by reference
