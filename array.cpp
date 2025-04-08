@@ -36,29 +36,30 @@
  Two of the common ones are Passing by Value and Passing by Reference. Passing by reference allows a function to modify a variable without creating a copy. We have to declare reference variables.
   The memory location of the passed variable and parameter is the same. Therefore, any change to the parameter also reflects in the variable inside its parent function.
   This article focuses on discussing how to pass variables by reference in C++.
-// Reverse of an Array
-// #include<iostream>
-// using namespace std;
+ 
+/ Reverse of an Array
+ #include<iostream>
+ using namespace std;
 
-// int Reverse(int array[],int size){
-//     int start=0;
-//     int end=size-1;
-//     while(start<end){
-//         swap(array[start],array[end]);
-//         start++;
-//         end--;
-//     };
-// }
-// int main(){
-//  int arrays[]={9,8,7,6,5,4,3,2,1};
-//  int sz=9;
-//  int result=Reverse(arrays,sz);
-//  for(int i=0;i<sz;i++){
-//     cout<<arrays[i]<<"";
-//  }    
-//  cout<<endl;
-//  return 0;
-// }
+ int Reverse(int array[],int size){
+     int start=0;
+    int end=size-1;
+     while(start<end){
+         swap(array[start],array[end]);
+         start++;
+         end--;
+     };
+ }
+ int main(){
+  int arrays[]={9,8,7,6,5,4,3,2,1};
+  int sz=9;
+  int result=Reverse(arrays,sz);
+  for(int i=0;i<sz;i++){
+     cout<<arrays[i]<<"";
+  }    
+  cout<<endl;
+  return 0;
+ }
 
 
 //Calculate the suum of the and product of the number present in the array
