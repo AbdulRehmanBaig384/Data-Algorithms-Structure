@@ -83,21 +83,20 @@
 //  Product(arrays,size);
 // }
 
-// Write a function to swap the max and min value of the numbers in the arrays
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int array[]={2,33,45,23,2321,121};
-//     int size=6;
-//   int max_num=0;
-  
-//     int min=0;
-//     for(int i=0;i<size;i++){
-//         if(array[i]>array[max_num]){
-//             max_num=i;        
-//         }
-//         else if(array[i]<array[min]){
+/ Write a function to swap the max and min value of the numbers in the arrays
+ #include<iostream>
+ using namespace std;
+ int main(){
+     int array[]={2,33,45,23,2321,121};
+     int size=6;
+   int max_num=0; 
+    int min=0;
+     for(int i=0;i<size;i++){
+         if(array[i]>array[max_num]){
+             max_num=i;        
+         }
+         else if(array[i]<array[min]){
 //             min=i;
 //         };
 //         };
@@ -121,11 +120,15 @@ using namespace std;
             if(i!=j && array[i]!=array[j]){
             isuniqque=false;
             break;
-            }
-
-            for
-
+            }}
+        if (isUnique) {
+            cout << arr[i] << " ";
         }
     }
-
+    }
  }
+int main(){
+ int array[]={1,3,4,2,1,5,6,3}
+ int size=8;
+ Unique_number(array,size)
+}
