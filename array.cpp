@@ -62,29 +62,29 @@
  }
 
 
-//Calculate the suum of the and product of the number present in the array
-// #include<iostream>
-// using namespace std;
-// void Sum(int array[],int size){
-//     int sum=0;
-//     for(int i=0;i<size;i++){
-//         sum+=array[i];
-//     }
-//     cout<<sum<<endl;
-// }
-// void Product(int array[],int size){
-//     int product=1;
-//     for(int i=0;i<size;i++){
-//         product*=array[i];
-//     }
-//     cout<<product<<endl;
-// }
-// int main(){
-// int arrays[]={1,2,3,4,5,6};
-//  int size=6;
-//  Sum(arrays,size);
-//  Product(arrays,size);
-// }
+/Calculate the suum of the and product of the number present in the array
+ #include<iostream>
+ using namespace std;
+ void Sum(int array[],int size){
+     int sum=0;
+     for(int i=0;i<size;i++){
+         sum+=array[i];
+     }
+     cout<<sum<<endl;
+ }
+ void Product(int array[],int size){
+     int product=1;
+     for(int i=0;i<size;i++){
+         product*=array[i];
+     }
+     cout<<product<<endl;
+ }
+ int main(){
+ int arrays[]={1,2,3,4,5,6};
+  int size=6;
+  Sum(arrays,size);
+  Product(arrays,size);
+ }
 
 
 / Write a function to swap the max and min value of the numbers in the arrays
@@ -100,20 +100,20 @@
              max_num=i;        
          }
          else if(array[i]<array[min]){
-//             min=i;
-//         };
-//         };
-//         int temp=array[max_num];
-//         array[max_num]=array[min];
-//         array[min]=temp;
-//         cout << "Array after swapping max and min: ";
-//         for (int i = 0; i < size; i++) {
-//             cout << array[i] << " ";
-//         }
-//         cout << endl;
-//     }
+             min=i;
+         };
+         };
+        int temp=array[max_num];
+         array[max_num]=array[min];
+         array[min]=temp;
+         cout << "Array after swapping max and min: ";
+         for (int i = 0; i < size; i++) {
+             cout << array[i] << " ";
+         }
+         cout << endl;
+     }
     
-/// Question:to find the unique number in the arrays
+/ Question:to find the unique number in the arrays
 #include<iostream>
 using namespace std;
  void Unique_number(int array[],int size){
