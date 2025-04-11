@@ -51,19 +51,19 @@ int main(){
     cout<<vec.front()<<endl; //return front value means 1
 }
 
-// #include<iostream>
-// using namespace std;
-// #include<vector>
-// int main(){
-//     int ans=0;
-//     vector<int>vec={1,2,1,3,4,2,5,6};
-//     for(int val:vec){
-//         ans=ans ^= val;
-//     }
-//     cout<<ans<<endl;
-//  return 0;
-// }
-//output :4
+#include<iostream>
+using namespace std;
+#include<vector>
+int main(){
+    int ans=0;
+    vector<int>vec={1,2,1,3,4,2,5,6};
+    for(int val:vec){
+        ans=ans ^= val;
+    }
+    cout<<ans<<endl;
+ return 0;
+}
+output :4
 
 // SUBARRAYS 
 //Question: Print all the subArray or subset in the  
