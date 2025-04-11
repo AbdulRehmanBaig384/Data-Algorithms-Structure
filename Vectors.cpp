@@ -64,27 +64,30 @@ int main(){
  return 0;
 }
 output :4
+  
 
-// SUBARRAYS 
-//Question: Print all the subArray or subset in the  
-// #include<iostream>
-// using namespace std;
-// #include<vector>
-// int main(){
-// int arrays[5]={2,3,4,5,6};
-// int n=5;
-// for(int start=0;start<n;start++){
-//    for(int end=start;end<n;end++){
-//     for(int i=start;i<end;i++){
-//     cout<<arrays[i];
-//     }
-//     cout<<" ";
-//    }
-//    cout<<endl;
-// }
-// }
-//Maximum SubArrays Sum
-// Kadanes Algorithms
+/SUBARRAYS 
+/Question: Print all the subArray or subset in the  
+#include<iostream>
+using namespace std;
+#include<vector>
+int main(){
+int arrays[5]={2,3,4,5,6};
+int n=5;
+for(int start=0;start<n;start++){
+   for(int end=start;end<n;end++){
+    for(int i=start;i<end;i++){
+    cout<<arrays[i];
+    }
+    cout<<" ";
+   }
+   cout<<endl;
+}
+}
+Maximum SubArrays Sum
+
+  
+/ Kadanes Algorithms
 
 #include<iostream>
 using namespace std;
