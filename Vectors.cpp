@@ -1,12 +1,12 @@
-// Vectors::
-// In C++, vector is a dynamic array that stores collection of elements same type in contiguous memory. It has the ability to resize itself automatically when an element is inserted or deleted.
+Vectors::
+In C++, vector is a dynamic array that stores collection of elements same type in contiguous memory. It has the ability to resize itself automatically when an element is inserted or deleted.
 
-// Syntax
-// Vector is defined as the std::vector class template inside the <vector> header file.
+Syntax
+Vector is defined as the std::vector class template inside the <vector> header file.
 
-// 1) vector<int> vec;
-// 2) vector<int> vec={1,2,3,4,5} 
-// 3) vector<int> vec(3,0) 
+1) vector<int> vec;
+2) vector<int> vec={1,2,3,4,5} 
+3) vector<int> vec(3,0) 
 
 
 // #include <bits/stdc++.h>
@@ -35,21 +35,21 @@
      cout<<i<<endl;}
 }
 
-// Vector Functions
-// size,push back,pop_back,front,back,at
-// #include<iostream>
-// using namespace std;
-// #include<vector>
-// int main(){
-//     vector<int>vec={1,2,3,4,5};
-//     cout<<vec.size()<<endl;
-//     vec.push_back(30); //add the value at last
-//     vec.push_back(40);
-//     cout<<vec.size()<<endl;
-//     vec.pop_back();//delete the last value
-//     cout<<vec.size()<<endl;
-//     cout<<vec.front()<<endl; //return front value means 1
-// }
+/Vector Functions
+/size,push back,pop_back,front,back,at
+#include<iostream>
+using namespace std;
+#include<vector>
+int main(){
+    vector<int>vec={1,2,3,4,5};
+    cout<<vec.size()<<endl;
+    vec.push_back(30); //add the value at last
+    vec.push_back(40);
+    cout<<vec.size()<<endl;
+    vec.pop_back();//delete the last value
+    cout<<vec.size()<<endl;
+    cout<<vec.front()<<endl; //return front value means 1
+}
 
 // #include<iostream>
 // using namespace std;
