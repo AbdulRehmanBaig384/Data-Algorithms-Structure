@@ -26,15 +26,14 @@
 //     return 0;
 // }
 
-// #include<iostream>
-// using namespace std;
-// #include<vector>
-// int main(){
-//     vector<int>vec={1,2,3,4,5};
-//     for(int i: vec){
-//     cout<<i<<endl;}
-
-// }
+ #include<iostream>
+ using namespace std;
+ #include<vector>
+ int main(){
+     vector<int>vec={1,2,3,4,5};
+     for(int i: vec){
+     cout<<i<<endl;}
+}
 
 // Vector Functions
 // size,push back,pop_back,front,back,at
