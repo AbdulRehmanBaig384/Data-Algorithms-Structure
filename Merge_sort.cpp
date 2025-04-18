@@ -1,8 +1,8 @@
-// #include <iostream>
-// using namespace std;
+ #include <iostream>
+ using namespace std;
 
-// void merge(int a[], int l, int m, int r) {
-//     int n1 = m - l + 1, n2 = r - m;
+ void merge(int a[], int l, int m, int r) {
+     int n1 = m - l + 1, n2 = r - m;
 //     int L[n1], R[n2];
 //     for (int i = 0; i < n1; i++) L[i] = a[l + i];
 //     for (int j = 0; j < n2; j++) R[j] = a[m + 1 + j];
