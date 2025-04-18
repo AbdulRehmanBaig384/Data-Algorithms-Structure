@@ -14,11 +14,11 @@
  void mergeSort(int a[], int l, int r) {
      if (l < r) {
          int m = l + (r - l) / 2;
-//         mergeSort(a, l, m);
-//         mergeSort(a, m + 1, r);
-//         merge(a, l, m, r);
-//     }
-// }
+         mergeSort(a, l, m);
+         mergeSort(a, m + 1, r);
+         merge(a, l, m, r);
+     }
+ }
 // int main() {
 //     int a[] = {12, 11, 13, 5, 6, 7};
 //     int n = 6;
